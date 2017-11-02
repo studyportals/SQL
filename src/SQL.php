@@ -39,6 +39,7 @@ interface SQL{
 	 * @param boolean $return_set
 	 * @param boolean $buffered
 	 * @return SQLResult
+	 * @throws SQLException
 	 */
 
 	public function query($query, $return_set = false, $buffered = true);
